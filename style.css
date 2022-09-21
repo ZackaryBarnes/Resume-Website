@@ -27,8 +27,6 @@
 .card-header {
     font-size: 1.5rem;
     padding: var(--padding);
-    padding-bottom: 0;
-    margin-bottom: .5rem;
 }
 
 .card-header.card-image {
@@ -51,27 +49,17 @@
 }
 
 .card-body {
-    font-size: 1rem;
-    font-weight: bold;
+    margin-bottom: 3px;
+    font-size: 1.05rem;
+    font-weight: 900;
+    text-decoration: underline;
     padding: 0 var(--padding);
 }
 
 .card-footer {
-    margin-top: 1rem;
+    /*margin-top: 0.075rem;*/
     padding: var(--padding);
     padding-top: 0;
-}
-
-.btn {
-    background: hsl(200, 50%, 50%);
-    color: white;
-    border: none;
-    font-size: 1rem;
-    padding: .5em, .75em;
-    border-radius: .25em;
-    cursor: pointer;
-}
-
-.btn:hover {
-    background: hsl(200, 50%, 60%);
+    padding-bottom: 7px;
+    position: relative;
 }
